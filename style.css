@@ -1,0 +1,167 @@
+html {
+    font-size: 13pt !important;
+}
+
+@media screen and (max-width: 1680px) {
+    html {
+        font-size: 12pt !important;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    html {
+        font-size: 11pt !important;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    html {
+        font-size: 9pt !important;
+    }
+}
+
+
+/*@media screen and (max-width: 736px) {
+        html {
+            font-size: 8pt !important;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        html {
+            font-size: 7pt !important;
+        }
+    }*/
+
+.main {
+    background-image: url("bgm.jpg");
+    background-size: cover;
+    height: 10vw;
+}
+
+section {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 1.17vw;
+    width: 60%;
+    text-align: left;
+    outline: none;
+    border: none;
+    font-size: 2vw;
+}
+
+.res {
+    background-color: #eee;
+    color: #444;
+    box-shadow: -5px 5px 10px 0 rgba(128, 128, 128, 0.6);
+    cursor: pointer;
+    padding: 1.17vw;
+    width: 25%;
+    text-align: left;
+    outline: none;
+    border: none;
+    transition: 0.4s;
+    font-size: 2vw;
+}
+
+.panel {
+    padding: 0 18px;
+    margin-top: 10px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+button i {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid #444;
+    border-width: 0 0.1em 0.1em 0;
+    display: block;
+    float: right;
+    margin: 0 0 0 3em;
+    padding: 1vw;
+    transition: transform 500ms ease-in-out, margin 500ms ease-in-out;
+}
+
+p {
+    text-align: left;
+    padding: 0 5% 0 5%
+}
+
+textarea {
+    font-size: 25px
+}
+
+
+/*Forms*/
+
+
+/*
+        .forms-studio {
+            position: relative;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+            width: 100%;
+            height: 600px;
+        }
+
+        .forms-studio iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+*/
+
+.register .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.text-align {
+    margin-top: -3%;
+    margin-bottom: -9%;
+    padding: 10%;
+    margin-left: 30%;
+}
+
+.form-new {
+    margin-right: 22%;
+    margin-left: 20%;
+}
+
+.register-heading {
+    margin-left: 21%;
+    margin-bottom: 10%;
+    color: #09bff7;
+}
+
+.register-heading h1 {
+    margin-left: 21%;
+    margin-bottom: 10%;
+    color: #ffffff;
+}
+
+.register {
+    background: -webkit-linear-gradient(left, #e5f1e7ea, #bcecead5);
+    margin-top: 3%;
+    padding: 3%;
+    border-radius: 2.5rem;
+}
+
+.btnSubmit {
+    border-radius: 1rem;
+    padding: 1%;
+    color: #fff;
+    background-color: #03612e;
+    border: none;
+    cursor: pointer;
+    color: rgb(246, 246, 252);
+}
